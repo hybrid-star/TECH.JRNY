@@ -72,3 +72,16 @@ button:hover {
     background-color:darkolivegreen;
     transform: scale(1.05);
 }
+/* Responsive Styles */
+@media (max-width:768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .text-section {
+        padding: 10px;
+    }
+    .image-section img {
+        max-width: 80%;
+    }
+}
